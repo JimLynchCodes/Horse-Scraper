@@ -1,0 +1,1169 @@
+window.USTALoginData = { 
+mastheadBannerURL: 'https://racing.ustrotting.com/getMastheadBanner.aspx'};
+</script>
+</head>
+<body>
+   <form method="post" action="./expired.aspx" id="aspnetForm">
+      <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTkyMzI1NzQ4NQ9kFgJmD2QWAmYPZBYCAgMPZBYGAgUPZBYCAgMPFgIeB1Zpc2libGVoZAIHD2QWAgIBDxYCHwBoZAILDxYCHwBoFgJmD2QWBAIBDw8WAh8AaGRkAgMPDxYCHwBoZGRk4nrvIhu1lOQZmAMbgH9ZegaJ6iMedA+oJ9H4Mo12zSA=" />
+      <script src="/ScriptResource.axd?d=wZPpxcLgo4Vad91U27nvv4nJYMkblUp5rpHllEtH8n1zRZZlX_SQexWn4QuYWmqO8_tJuXDrtbM5CjmUbywKUjkR0ZlqYv0_-QzhwkbZx5-zZrmlWsSkJYw4rI4w1Maeu0zGU4WF50zE1oWxWSn1tr9ibqY-4zLWV2osJWFG9m81&amp;t=ffffffffe3f7d3ff" type="text/javascript"></script>
+      <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="610EC7CE" />
+      <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAOvZelM34dHz8OUO3wT6l2/BngQDIVQQzUuduodDrTid3UdUqzaHXcK6A1m9ItK+boPNAfVvfzrt0jjzTdnOrTLerygBfYxrdYrW0OSPq+T9g==" />
+      <script type="text/javascript" lang="javascript">
+         // Attach the ToggleProgressBar method.
+         Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(toggleProgressBar);
+         Sys.WebForms.PageRequestManager.getInstance().add_endRequest(toggleProgressBar);
+         
+         // Toggles the visiblity of the progress bar.
+         function toggleProgressBar() {
+             var progressBar = $get('masterprogress');
+         
+             if (progressBar.style.display == 'none' || progressBar.style.display == '') {
+                 // Show.
+                 // Center the progressbar.
+                 var bounds = getWindowBounds();
+                 progressBar.style.top = (bounds.y / 2) - 50 + 'px';
+                 progressBar.style.left = (bounds.x / 2) - 150 + 'px';
+                 progressBar.style.display = 'block';
+             }
+             else {
+                 // Hide.
+                 progressBar.style.display = 'none';
+             }
+         }
+         // Returns the height and width of the current window.
+         function getWindowBounds() {
+             var bounds = { x: 0, y: 0 }
+             if (self.innerHeight) {
+                 // All except Internet Explorer.
+                 bounds.x = self.innerWidth;
+                 bounds.y = self.innerHeight;
+             }
+             else if (document.documentElement && document.documentElement.clientHeight) {
+                 // Internet Explorer strict mode.
+                 bounds.x = document.documentElement.clientWidth;
+                 bounds.y = document.documentElement.clientHeight;
+             }
+             else if (document.body) {
+                 // Internet Explorer.
+                 bounds.x = document.body.clientWidth;
+                 bounds.y = document.body.clientHeight;
+             }
+             return bounds;
+         }
+         
+      </script>
+      <div id="masterprogress">
+         <div id="ctl00_ctl00_UpdateProgress" style="display:none;">
+            <img id="ctl00_ctl00_masterprogressimg" src="/images/ajax-loader.gif" />
+            <div style="vertical-align: top; text-align:center; font-weight: bold; padding-top: 5px">...Please Wait</div>
+         </div>
+      </div>
+      <div class="headerarea">
+         <table class="userwelcomearea" cellpadding="0" cellspacing="0">
+            <tr>
+               <td id="ctl00_ctl00_tdLeft" style="text-align: left; padding-left: 3px; width: 50%; vertical-align: middle">
+                  <div id="ctl00_ctl00_divUnauthenticated">
+                     <a id="ctl00_ctl00_lnkbtnsign_in" title="Sign in" OnMouseOver="window.status=&#39;Sign in&#39;; return true;" OnMouseOut="window.status=&#39;&#39;; return true;" href="javascript:__doPostBack(&#39;ctl00$ctl00$lnkbtnsign_in&#39;,&#39;&#39;)">Sign in</a>&nbsp;to&nbsp;your&nbsp;USTA&nbsp;Online&nbsp;Services&nbsp;account.&nbsp;&nbsp;Don't&nbsp;have&nbsp;an&nbsp;account?&nbsp;&nbsp;<a id="ctl00_ctl00_lnkbtnregister" title="Start here" OnMouseOver="window.status=&#39;Start here&#39;; return true;" OnMouseOut="window.status=&#39;&#39;; return true;" href="javascript:__doPostBack(&#39;ctl00$ctl00$lnkbtnregister&#39;,&#39;&#39;)">Start here</a>.
+                  </div>
+               </td>
+               <td id="ctl00_ctl00_tdRight" style="text-align: right; width: 50%; padding-right: 3px; vertical-align: middle">
+               </td>
+            </tr>
+         </table>
+      </div>
+      <script>
+         window.jquery = '/branding/js/jquery.min.js';
+         window.jqueryUI = '/branding/js/jquery-ui.custom.min.js';
+      </script>
+      <script src="/branding/js/LAB.min.js"></script>
+      <script src="/branding/js/loadJQuery.js"></script>
+      <map name="social_media_map" id="social_media_map">
+         <area shape="rect" coords="1,1,11,22" href="https://facebook.com/ustrotting" alt="Facebook">
+         <area shape="rect" coords="22,1,42,22" href="https://twitter.com/USTrotting" alt="Twitter">
+         <area shape="rect" coords="53,1,73,22" href="http://vimeo.com/ustrotting/videos" alt="Vimeo">
+         <area shape="rect" coords="79,1,100,22" href="http://youtube.com/user/ustrotting" alt="You Tube">
+         <area shape="rect" coords="107,1,124,22" href="http://pinterest.com/ustrotting" alt="Pinterest">
+         <area shape="rect" coords="132,1,154,22" href="http://instagram.com/ustrotting" alt="Instagram">
+         <area shape="rect" coords="163,1,181,22" href="http://vine.co/ustrotting" alt="Vine">
+      </map>
+      <div id="usta-template-header" class="screen">
+         <div id="masthead-container">
+            <div>
+               <div id="masthead-logo">
+                  <a href="http://www.ustrotting.com/">
+                  <img src="/branding/images/usta_logo.png" border="0"  width="250" height="72" />
+                  </a>
+                  <div align="center" style="padding:5px;" id="social-media-icons">
+                     <img src="/branding/images/social_media.png" border="0" usemap="#social_media_map" />
+                  </div>
+               </div>
+               <div id="masthead-links">
+                  <div id="masthead-ad">
+                     <noscript></noscript>
+                  </div>
+                  <div id="masthead-links-array">
+                     <a href="http://www.ustrotting.com/about.cfm">WHAT IS THE USTA?</a> 
+                     | 
+                     <a href="http://members.ustrotting.com/membership.cfm">BECOME A MEMBER</a> 
+                     | 
+                     <a href="http://onlineservices.ustrotting.com/login.aspx?ReturnUrl=%2fquickservice.aspx%3fproduct_id%3d4&product_id=4">RENEW</a> 
+                     | 
+                     <a href="http://members.ustrotting.com/member_discounts.cfm">MEMBER DISCOUNTS</a> 
+                  </div>
+               </div>
+               <br clear="all" />
+            </div>
+         </div>
+      </div>
+      <div id="usta-template-navigation" class="screen">
+         <div id="usta-template-navigation-container">
+            <ul>
+               <li><a href="http://www.ustrotting.com/">HOME</a></li>
+               <li><a href="http://onlineservices.ustrotting.com/">ONLINE SERVICES</a></li>
+               <li><a href="http://myaccount.ustrotting.com/">MY ACCOUNT</a></li>
+               <li><a href="http://pathway.ustrotting.com/">PATHWAY</a></li>
+               <li><a href="http://www.ustrotting.com/tp-guide/">T &amp; P GUIDE</a></li>
+               <li><a href="http://stars.ustrotting.com/">STALLION SHOWCASE</a></li>
+               <li><a href="http://hoofbeats.ustrotting.com/">HOOF BEATS</a></li>
+               <li><a href="http://harnessracingfanzone.com/">NEW TO RACING</a></li>
+               <li><a href="http://shop.ustrotting.com/">SHOP</a></li>
+               <li><a href="http://www.ustrotting.com/contact.cfm">CONTACT</a></li>
+            </ul>
+            <br clear="all" />
+         </div>
+      </div>
+      <div id="usta-template-drop-navigation" class="screen">
+         <div id="usta-template-drop-navigation-container"
+            >
+            <!-- NodeFire Structure [Menu 0] -->
+            <ul id="qm0" class="qmmc qm-horizontal-c">
+               <li>
+                  <a class="qmitem-m qmparent" href="http://www.ustrotting.com/">
+                  USTA 
+                  </a>
+                  <ul class="qmsub">
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/"  style="font-weight:bold;">
+                        USTA Home
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/about.cfm">
+                        About Us
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/contact.cfm">
+                        Contact Information
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/directors.cfm">
+                        Directors
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/annualboardmeeting.cfm">
+                        Annual Board Meeting
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/pdf/DistrictMeetings.pdf">
+                        District Meetings
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="http://www.ustrotting.com/pdf/USTARuleBook.pdf">
+                        Rule Book
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://www.ustrotting.com/apps.cfm">
+                              Rule Book App
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://www.ustrotting.com/pdf/USTARuleBook.pdf">
+                              Rule Book (PDF)
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://www.ustrotting.com/pdf/USTARuleBook-Insert.pdf">
+                              Rule Changes
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/standardbred-driving-school/">
+                        USTA Driving School
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/education.cfm">
+                        Education
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/employment.cfm">
+                        Employment
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/advertise.cfm">
+                        Advertise
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="http://shop.ustrotting.com/publications.aspx">
+                        Publications
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://www.hoofbeatsmagazine.com/">
+                              Hoof Beats Magazine
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://fanguide.ustrotting.com">
+                              This Is Harness Racing
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s qmparent"  href="http://www.ustrotting.com/pdf/USTARuleBook.pdf">
+                              Rule Book
+                              </a>
+                              <ul class="qmsub">
+                                 <li>
+                                    <a class="qmitem-s" href="http://www.ustrotting.com/apps.cfm">
+                                    Rule Book App
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="qmitem-s" href="http://www.ustrotting.com/pdf/USTARuleBook.pdf">
+                                    Rule Book (PDF)
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="qmitem-s" href="http://www.ustrotting.com/pdf/RULECHANGEPROPOSALS.pdf">
+                                    Rule Change Proposals 
+                                    </a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://shop.ustrotting.com/thenewcareandtrainingofthetrotterandpacer-usorders.aspx">
+                              Care and Training 
+                              <br />
+                              &nbsp;of the Trotter and Pacer
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s qmparent"  href="http://shop.ustrotting.com/publications.aspx">
+                              Stakes Guide
+                              </a>
+                              <ul class="qmsub">
+                                 <li>
+                                    <a class="qmitem-s" href="http://shop.ustrotting.com/stakeseventguide.aspx">
+                                    Stakes Event Guide
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="qmitem-s" href="http://shop.ustrotting.com/stakesconditionbooklet.aspx">
+                                    Stakes Conditions
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="qmitem-s" href="http://shop.ustrotting.com/usta-stakes-calendar.aspx">
+                                    Stakes Calendar 
+                                    </a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://horsemen.ustrotting.com/pdf/EconomicBrochure-Blankback_9-16_hirez.pdf">
+                              Good for Business
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <span class="qmtitle" >
+                        <br />
+                        USTA Youth
+                        </span>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/youth.cfm">
+                        Youth Corner
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://hoofbeats.ustrotting.com/youthbeats">
+                        Youth Beats Magazine
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://members.ustrotting.com">
+                  Member Services 
+                  </a>
+                  <ul class="qmsub">
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/" style="font-weight:bold;">
+                        Member Services Home
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/membership.cfm">
+                        Join the USTA
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/member_discounts.cfm">
+                        Member Discounts / Fees
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/forms.cfm">
+                        Forms/Applications
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <span class="qmtitle" >
+                        MEMBER SERVICES
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/membership.cfm">
+                        Membership
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/driver_trainer.cfm">
+                        Driver/Trainer
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/officials.cfm">
+                        Officials
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/stables_corp.cfm">
+                        Stables/Corporations
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <span class="qmtitle" >
+                        HORSE SERVICES
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/registration.cfm">
+                        Foal Registration
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/eligibility.cfm">
+                        Electronic Eligibility
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/transfer.cfm">
+                        Transfers
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/lease.cfm">
+                        Leases
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/breeding.cfm">
+                        Breeding
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/import_export.cfm">
+                        Importing &amp; Exporting
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/education.cfm">
+                        Education
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://members.ustrotting.com/youth.cfm">
+                        Youth Corner
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com/legislative_toolkit.cfm">
+                        Legislative Tool Kit
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://racing.ustrotting.com">
+                  Racing (Entries/Results) 
+                  </a>
+                  <ul class="qmsub">
+                     <li>
+                        <a class="qmitem-s" href="http://racing.ustrotting.com" style="font-weight:bold;">
+                        Racing Home
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://racing.ustrotting.com">
+                        Entries/Results
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.trackmaster.com/partners/usta/" target="_blank">
+                        TrackMaster Race Programs
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/events_calendar/events_calendar.cfm?daterequest=08/16/2017&showall=race">Feature Races</a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/race_dates/race_dates.cfm">
+                        Race Dates
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/top_races/yesterdays_topten.cfm">
+                        Yesterday's Top Ten
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/top_performers/top_performers.cfm">
+                        Top Performers
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/sire_stats/sire_stats.cfm">
+                        Sire Statistics
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/trackfacts/trackfacts.cfm">
+                        Track Information
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.trackmaster.com/stable/" target="_blank">
+                        TrackMaster Virtual Stable
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="http://fairs.ustrotting.com/">
+                        Fairs
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://fairs.ustrotting.com/" style="font-weight:bold;">
+                              Fairs Home
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://fairs.ustrotting.com/all_news.cfm">
+                              Fair News
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://fairs.ustrotting.com/findafair.cfm">
+                              Find a Fair
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://fairs.ustrotting.com/funds.cfm">
+                              Matching Funds Grant
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://fairs.ustrotting.com/promotions.cfm">
+                              Promotions
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://fairs.ustrotting.com/contacts.cfm">
+                              Contacts &amp; Resources
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/world_records/world_records.cfm">
+                        North American Records
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/amateur-driving-clubs/">
+                        Amateur Driving Clubs
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/racing-under-saddle/">
+                        Racing Under Saddle
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/trackside/mobile/mobile.cfm">
+                        Mobile Entries/Results 
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://harnessracingfanzone.com/little-brown-jug/" >
+                        Little Brown Jug on Fanzone  
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://news.ustrotting.com/">
+                  News 
+                  </a>
+                  <ul class="qmsub">
+                     <li>
+                        <a class="qmitem-s" href="http://news.ustrotting.com/" style="font-weight:bold;">
+                        News Home
+                        </a>
+                     </li>
+                     <!-- <li><a class="qmitem-s" href="http://news.ustrotting.com/all_news.cfm">News, Announcements &amp; Obituaries</a></li>
+                        <li><a class="qmitem-s" href=" http://news.ustrotting.com/horseofthemonth.cfm">Horse of the Month</a></li>-->
+                     <li>
+                        <a class="qmitem-s" href="http://news.ustrotting.com/grandcircuit/">
+                        The Grand Circuit
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://news.ustrotting.com/archives.cfm">
+                        Search the Archives
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://news.ustrotting.com/usta_newsletters.cfm">
+                        USTA Newsletters
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://horsemen.ustrotting.com">
+                  Horsemen 
+                  </a>
+                  <ul class="qmsub">
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com" style="font-weight:bold;">
+                        Horsemen Home
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="https://myaccount.ustrotting.com/login.aspx">
+                        Online Entries
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://onlineservices.ustrotting.com/quickservice.aspx?product_id=16">
+                        Request Electronic Eligibiility
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com/conditions.cfm">
+                        Condition Sheets
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com/sale_dates.cfm">
+                        Sales Dates
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com/stks_calendar.cfm">
+                        Stakes Calendar
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com/stks_conditions.cfm">
+                        Stakes Conditions
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com/stks_eventguide.cfm">
+                        Stakes Event Guide
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://pathway.ustrotting.com/search/" target="_blank">
+                        Horse Name/Tattoo Search
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://racing.ustrotting.com">
+                        Entries &amp; Results
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx">
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="#">
+                        Regulatory
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://horsemen.ustrotting.com/rules_reg.cfm">
+                              Fines/Suspensions
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s qmparent"  href="http://www.ustrotting.com/pdf/USTARuleBook.pdf">
+                              Rule Book
+                              </a>
+                              <ul class="qmsub">
+                                 <li>
+                                    <a class="qmitem-s" href="http://www.ustrotting.com/apps.cfm">
+                                    Rule Book App
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="qmitem-s" href="http://www.ustrotting.com/pdf/USTARuleBook.pdf">
+                                    Rule Book (PDF)
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="qmitem-s" href="http://www.ustrotting.com/pdf/USTARuleBook-Insert.pdf">
+                                    Rule Changes
+                                    </a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://horsemen.ustrotting.com/pdf/ApprovedSulkies.pdf">
+                              Approved Sulkies
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://horsemen.ustrotting.com/pdf/SulkyFailureReport.pdf">
+                              Sulky Failure Report
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://horsemen.ustrotting.com/delinquent.cfm">
+                              Delinquent USTA Licenses 
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://horsemen.ustrotting.com/legislative_toolkit.cfm">
+                        Legislative Tool Kit
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://pathway.ustrotting.com" target="_blank">
+                        Pathway
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://racewaylite.ustrotting.com">
+                        Raceway Lite
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="#">
+                        Forms
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://members.ustrotting.com/forms/LeaseForm.pdf" target="_blank">
+                              Lease Agreement
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://members.ustrotting.com/forms/Transfer.pdf" target="_blank">
+                              Transfer
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://members.ustrotting.com/forms/USTANewMemberForm.pdf" target="_blank">
+                              New Member Application
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="#">
+                        Services
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://members.ustrotting.com/driver_trainer.cfm">
+                              USTA License
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://members.ustrotting.com/eligibility.cfm">
+                              Electronic Eligibility
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://members.ustrotting.com/pdf/Driving_Colors_app.pdf">
+                              Colors Registration
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="https://www.vangundy.com/equine-insurance.html" target="_blank">
+                              Accident Insurance
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="#">
+                        National Licensing
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://racinglicense.com/licensing.html" target="_blank">
+                              Racing Commissioners International
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://www.racinglicense.com/index.html" target="_blank">
+                              National Racing Compact
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://shop.ustrotting.com/drivertrainerteststudyguide.aspx" target="_blank">
+                        Driver/Trainer Test Study Guide
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://handicapping.ustrotting.com/">
+                  Handicapping 
+                  </a>
+                  <ul class="qmsub">
+                     <li>
+                        <a class="qmitem-s" href="http://handicapping.ustrotting.com/"  style="font-weight:bold;">
+                        Handicapping Home
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://handicapping.ustrotting.com/">
+                        Strategic Wagering Program
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://pathway.ustrotting.com" target="_blank">
+                        Pathway Video Replays
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://handicapping.ustrotting.com/pandycapping.cfm">
+                        Pandycapping
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://fanguide.ustrotting.com/make_a_bet.cfm">
+                        Make a Bet
+                        </a>
+                     </li>
+                     <li>
+                        <span class="qmdivider qmdividerx" >
+                        </span>
+                     </li>
+                     <li>
+                        <span class="qmtitle" >
+                        TRACKMASTER PRODUCTS
+                        </span>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.trackmaster.com/partners/usta/" target="_blank">
+                        Order Race Programs
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.trackmaster.com/products/harness/winners_circle_selections" target="_blank">
+                        FREE Winner's Circle Selections
+                        </a>
+                     </li>
+                     <!--<li><a class="qmitem-s" href="http://www.trackmaster.com/free/cgi/showData.cgi?statsmaster" target="_blank">StatsMaster</a></li> -->
+                     <li>
+                        <a class="qmitem-s" href="http://www.trackmaster.com/products/harness" target="_blank">
+                        More TrackMaster Products
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://lifeafterracing.ustrotting.com">
+                  Life After Racing
+                  </a>
+                  <ul class="qmsub">
+                     <li>
+                        <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/"  style="font-weight:bold;">
+                        Life After Racing Home
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="http://lifeafterracing.ustrotting.com/standardbred-safety-net.cfm">
+                        Standardbred Safety Net&nbsp;&nbsp;
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/full-circle.cfm">
+                              Full Circle FAQ
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/pleasure-registration.cfm">
+                              Pleasure Registration FAQ
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/support-our-standardbreds.cfm">
+                              Support Our Standardbreds FAQ
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/standardbred-placement.cfm">
+                              Standardbred Placement
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/find-a-standardbred.cfm">
+                              Standardbred Adoption&nbsp;&nbsp;
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/off-the-track.cfm">
+                              Off-the-Track Activities&nbsp;&nbsp;
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="qmitem-s qmparent"  href="http://lifeafterracing.ustrotting.com/off-the-track.cfm">
+                        Off-the-Track Activities&nbsp;&nbsp;
+                        </a>
+                        <ul class="qmsub">
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/dressage.cfm">
+                              Dressage
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/driving.cfm">
+                              Driving
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/endurance.cfm">
+                              Endurance
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/roadster.cfm">
+                              Roadster
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/speed-racking.cfm">
+                              Speed Racking
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/national-standardbred-show.cfm">
+                              National Standardbred Show
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/world-equestrian-games.cfm">
+                              World Equestrian Games 
+                              </a>
+                           </li>
+                           <li>
+                              <a class="qmitem-s" href="http://lifeafterracing.ustrotting.com/SPHO.cfm">
+                              SPHOs
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://www.ustrotting.com/video/">
+                  Video 
+                  </a>
+                  <ul  class="qmsub" style="margin:0px 0px 0px -70px;">
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/video/" style="font-weight:bold;">
+                        USTA Video home
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://pathway.ustrotting.com" target="_blank">
+                        Race Replays
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.youtube.com/ustrotting" target="_blank">
+                        USTA on Youtube
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://pathway.ustrotting.com/search/">
+                  Tattoo Search 
+                  </a>
+                  <ul  class="qmsub" style="margin:0px 0px 0px -34px;">
+                     <li>
+                        <a class="qmitem-s" href="http://pathway.ustrotting.com/search/" style="font-weight:bold;">
+                        Tattoo Search Home
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://www.ustrotting.com/industry_links.cfm">
+                  Industry Links 
+                  </a>
+               </li>
+               <li>
+                  <a class="qmitem-m qmparent" href="http://www.ustrotting.com/sitemap.cfm">
+                  More 
+                  </a>
+                  <ul  class="qmsub" style="margin:0px 0px 0px -107px;">
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/wallpaper.cfm">
+                        Wallpaper
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://news.ustrotting.com/usta_newsletters.cfm">
+                        USTA Newsletters
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ushwa.org/" target="_blank">
+                        USHWA
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.harnesstracks.com/" target="_blank">
+                        Harness Tracks of America
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.harnessmuseum.com/" target="_blank">
+                        Hall of Fame
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/clipart.cfm">
+                        Clip Art
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://www.ustrotting.com/sitemap.cfm">
+                        Site Map
+                        </a>
+                     </li>
+                     <li>
+                        <a class="qmitem-s" href="http://support.ustrotting.com">
+                        USTA Support Center
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="qmclear">
+                  &nbsp;
+               </li>
+            </ul>
+            <!-- close <div id="usta-template-drop-navigation-container" -->
+         </div>
+         <!-- close <div id="usta-template-drop-navigation" class="screen"> -->
+      </div>
+      <div id="centering">
+         <div id="usta-template-content">
+            <div id="usta-template-content-container">
+               <table cellpadding="0" cellspacing="0">
+                  <tr>
+                     <td class="contentarea">
+                        <table style="width:100%;text-align:center" cellpadding="0" cellspacing="0">
+                           <tr>
+                              <td style="width:100%;text-align:center;padding-top:20px;" class="resultspagetitle">
+                                 Sorry! Your session has expired!
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:100%;text-align:center;padding-top:20px;" class="resultspagetext">
+                                 Your session has expired after 20 minutes of inactivity. Click <a href="/default.aspx">here</a> to return to the racing home page.
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="width:100%;text-align:center;padding-top:20px;">
+                                 <table id="ctl00_ctl00_cphContentArea_cphContentArea_tabMain" cellspacing="0" cellpadding="0" align="Center">
+                                    <tr>
+                                       <td>
+                                          <table cellspacing="0" cellpadding="0" align="Left" summary="" width="355">
+                                             <tr>
+                                                <td align="right"><img src="/images/borders/tl2.gif" /></td>
+                                                <td bgcolor="#CCCCCC"></td>
+                                                <td align="left"><img src="/images/borders/tr2.gif" /></td>
+                                             </tr>
+                                             <tr>
+                                                <td align="center" bgcolor="#CCCCCC"></td>
+                                                <td align="left">
+                                                   <table cellspacing="0" cellpadding="0" align="Center" summary="" width="345">
+                                                      <tr>
+                                                         <td colspan="3" bgcolor="#FFFFFF" height="5"></td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td bgcolor="#FFFFFF" width="5"></td>
+                                                         <td bgcolor="#FFFFFF" width="335">
+                                                            <div></div>
+                                                         </td>
+                                                         <td bgcolor="#FFFFFF" width="5"></td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td colspan="3" bgcolor="#FFFFFF" height="5"></td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                                <td align="center" bgcolor="#CCCCCC"></td>
+                                             </tr>
+                                             <tr>
+                                                <td align="right"><img src="/images/borders/bl2.gif" /></td>
+                                                <td bgcolor="#CCCCCC"></td>
+                                                <td align="left"><img src="/images/borders/br2.gif" /></td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <!-- end content container div -->
+         </div>
+         <div id="usta-template-footer" class="screen">
+            <div id="usta-template-copyright">
+               <div>
+                  Copyright &copy;<span id="usta-footer-copyright-year"></span> The United States Trotting Association.
+                  All rights reserved. This material may not be published, broadcast, rewritten or redistributed
+                  in any form without the expressed, written consent of the U.S. Trotting Association.
+                  Please review our <a href="http://www.ustrotting.com/policies/privacy.cfm">privacy policy</a>.
+                  Use of this site signifies your agreement to the <a href="http://www.ustrotting.com/policies/tou.cfm">terms of use</a>.
+                  Maintained online by <a href="mailto:webmaster@ustrotting.com">webmaster@ustrotting.com</a>.
+               </div>
+               <div align="center">
+                  <hr />
+                  United States Trotting Association &nbsp; &#149;&nbsp; &nbsp;
+                  6130 S. Sunbury Rd., Westerville, Ohio 43081 &nbsp; &#149;&nbsp; &nbsp;
+                  1-877-800-USTA &nbsp; &#149;&nbsp; &nbsp;
+                  Mon. - Fri. 8 A.M.  - 4:30 P.M. EST
+               </div>
+            </div>
+         </div>
+         <!-- end footer div -->
+      </div>
+      <!--end centering div -->
+      <script>
+         $LAB
+         	.queueScript(function() {
+         		//Google tracking code
+         		(
+         			function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         		  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         		  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         		  	}
+         		)(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+         
+         		ga('create', 'UA-1196103-9', 'ustrotting.com');
+         		ga('send', 'pageview');
+         	})
+         	.queueScript("https://apis.google.com/js/client.js?onload=loadAPIClientInterfaces")
+         	.queueScript("/branding/js/jquery.xdomainrequest.min.js")
+         	.queueScript("/branding/js/jquery.cookies.min.js")
+         	.queueScript("/branding/js/USTAMasthead.js")
+         	.queueScript("/branding/js/USTABanners.js?v=4272016944")
+         	
+         	//if the quickmenu scripts are not already loaded (older sites are still loading them 
+         	//individually)
+         	if( typeof qm_create == 'undefined' || !qm_create ) {
+         		$LAB.queueScript('/branding/js/quickMenu.js?v=1');
+         	}
+         	
+         	//in case a site is already calling this function
+         	if( typeof loaded == 'undefined' || !loaded ) {
+         		$LAB.queueWait(function() {
+         			qm_create(0,{showDelay:0,hideDelay:0,interaction:'hover',autoResize:false});
+         		});
+         	}
+         
+         	//SITE-SPECIFIC SCRIPTS
+         	
+         		$LAB
+         		
+         
+         			//src scripts
+         			
+         				.queueScript('/banners.js?v=4272016944').queueWait()
+         			
+         	;
+      </script>
+      <script>
+         $LAB.runQueue();
+      </script>
+   </form>
+</body>
+</html>
